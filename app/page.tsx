@@ -27,9 +27,9 @@ const benefits = [
 ];
 const story = [
   { title: "Primul antrenament", intro: "PUȚINE EMOȚII. MULTĂ CURIOZITATE.", text: "Un teren nou. Câțiva colegi pe care încă nu îi cunoaște. Un antrenor care îi spune pe nume. Așa începe încrederea.", caption: "Curajul de a încerca", image: "/images/training-golden-kids.webp", position: "50% 50%" },
-  { title: "Primele pase", intro: "DIN ÎNCERCARE ÎN REUȘITĂ.", text: "Mingea nu ajunge mereu unde își dorește. Dar încearcă din nou. Și descoperă că progresul vine din răbdare și exercițiu.", caption: "Bucuria unui pas înainte", image: "/images/training-golden-kids.webp", position: "25% 55%" },
+  { title: "Primele pase", intro: "DIN ÎNCERCARE ÎN REUȘITĂ.", text: "Mingea nu ajunge mereu unde își dorește. Dar încearcă din nou. Și descoperă că progresul vine din răbdare și exercițiu.", caption: "Bucuria unui pas înainte", image: "/images/passing-golden-kids.webp", position: "15% 50%" },
   { title: "Primul meci", intro: "EMOȚII CARE NE FAC MAI PUTERNICI.", text: "Învață să ia decizii, să câștige cu respect și să piardă cu fruntea sus. Pentru că fiecare meci are ceva de oferit.", caption: "Mai mult decât un rezultat", image: "/images/pitch-golden-kids.webp", position: "70% 50%" },
-  { title: "Prima echipă", intro: "DE LA «EU» LA «NOI».", text: "O pasă oferită la timp. O mână întinsă după o cădere. Bucuria împărțită cu ceilalți. Aici, fotbalul devine o lecție de viață.", caption: "Locul în care aparține", image: "/images/training-golden-kids.webp", position: "75% 40%" },
+  { title: "Prima echipă", intro: "DE LA «EU» LA «NOI».", text: "O pasă oferită la timp. O mână întinsă după o cădere. Bucuria împărțită cu ceilalți. Aici, fotbalul devine o lecție de viață.", caption: "Locul în care aparține", image: "/images/team-golden-kids.webp", position: "50% 40%" },
 ];
 const sessions = [
   { years: "2012-2013", from: 2012, to: 2013, days: "Luni · Miercuri · Vineri", time: "18:00-19:30", level: "Consolidare" },
@@ -166,7 +166,7 @@ export default function Home() {
         <div className="schedule-location"><MapPin size={19} /><div><strong>Terenul de antrenament</strong><span>Locația și adresa vor fi anunțate de club.</span></div><span className="location-decoration" aria-hidden="true">NE VEDEM PE TEREN.</span></div>
       </div></section>
       <section className="development-section" id="dezvoltare">
-        <div className="development-image"><img src="/images/training-golden-kids.webp" alt="Copii exersând cu mingea la antrenamentul de fotbal" loading="lazy" /><div className="image-note"><span>PROGRESUL SE CONSTRUIEȘTE.</span><strong>Un antrenament<br />după altul.</strong></div></div>
+        <div className="development-image"><img src="/images/coaching-golden-kids.webp" alt="Antrenor oferind îndrumare individuală unui copil în echipamentul Golden Kids" loading="lazy" /><div className="image-note"><span>PROGRESUL SE CONSTRUIEȘTE.</span><strong>Un antrenament<br />după altul.</strong></div></div>
         <div className="development-content" data-reveal><p className="eyebrow"><span className="section-number">05</span> O BAZĂ SOLIDĂ PENTRU VIITOR</p><h2>Ce primește<br /><span className="yellow">copilul.</span></h2><div className="development-list">{[
           ["Antrenamente adaptate vârstei", "Exerciții și provocări potrivite etapei în care se află."],
           ["Dezvoltare tehnică", "Controlul mingii, pase, dribling și finalizare, cu răbdare și repetiție."],
