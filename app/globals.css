@@ -154,9 +154,8 @@ h3 { font-weight:700; }
 .gallery-main { grid-row:span 2; }
 .gallery-item > img { height:100%; width:100%; object-fit:cover; transition:transform .7s; }
 .gallery-main > img { object-position:30% 50%; }
-.gallery-team > img { object-position:90% 25%; transform:scale(1.4); }
+.gallery-team > img { object-position:50% 20%; }
 .gallery-item:hover > img { transform:scale(1.04); }
-.gallery-team:hover > img { transform:scale(1.45); }
 .gallery-item::after { content:''; position:absolute; inset:0; background:linear-gradient(0deg,#000b,transparent 65%); }
 .gallery-item > div { position:absolute; z-index:1; bottom:26px; left:28px; }
 .gallery-item > div > span { font-size:0.75rem; letter-spacing:.12em; }
