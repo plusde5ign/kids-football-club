@@ -57,7 +57,7 @@ export default function Home() {
   const gallery = [
     { image: "/images/training-golden-kids.webp", title: "Fiecare pas contează.", alt: "Copii în echipament galben exersând driblingul pe teren", className: "gallery-main" },
     { image: "/images/pitch-golden-kids.webp", title: "Aici începe povestea.", alt: "Teren de fotbal la apus, pregătit pentru antrenament", className: "gallery-pitch" },
-    { image: "/images/training-golden-kids.webp", title: "Împreună, mai departe.", alt: "Moment de antrenament al unei echipe de copii", className: "gallery-team" },
+    { image: "/images/goalkeeper-golden-kids.webp", title: "Curaj la fiecare minge.", alt: "Copil portar în bluză verde și șort negru, pregătit să apere poarta", className: "gallery-team" },
   ];
   const openTrial = (selected?: number) => { if (selected) setYear(String(selected)); setTrialOpen(true); };
   const selectedCohort = cohorts.find(c => c.year === Number(year))!;
