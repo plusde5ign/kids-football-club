@@ -1,4 +1,4 @@
-# Academia de Fotbal
+# A.C.S. Golden Kids Brașov
 
 Pagină de prezentare în limba română pentru grupele 2012-2021.
 

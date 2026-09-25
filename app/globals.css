@@ -270,3 +270,5 @@ h3 { font-weight:700; }
 
 @media(max-width:600px){.section-heading h2,h2{font-size:clamp(2.5rem,13vw,3.375rem);}.story-beat h2{font-size:clamp(2.5rem,12.6vw,3.125rem);}}
 @media(max-height:740px){.story-section{height:auto;}.story-sticky{position:relative;height:auto;min-height:0;}.story-photo{min-height:350px;}.story-content{padding-top:45px;padding-bottom:45px;}.story-beats{display:flex;flex-direction:column;gap:45px;}.story-beat{opacity:1;visibility:visible;transform:none;}.story-steps,.story-scroll{display:none;}.story-photo>img:not(:first-child){display:none;}.story-photo>img:first-child{opacity:1;transform:none;}}
+.brand-logo { width:48px; height:48px; flex:none; object-fit:cover; border-radius:50%; }
+@media(max-width:767px) { .brand-logo { width:40px; height:40px; } }
